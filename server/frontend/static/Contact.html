@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Best Cars</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    body { background-color: #f4f7f9; }
+    .contact-banner { padding: 30px; text-align: center; background-color: #e0f7f7; border-radius: 6px; }
+    .contact-row { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 16px; padding: 24px; }
+    .contact-card { width: 30%; min-width: 220px; padding: 20px; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+    .contact-card h4 { margin-bottom: 10px; }
+    .hours { padding: 0 24px 24px; text-align: center; }
+  </style>
+</head>
+<body>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about/">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact/">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="contact-banner">
+      <h1>Contact Us</h1>
+      Questions about a car, a test drive or financing? Reach the Best Cars team any way you like and we'll reply within one working day.
+    </div>
+
+    <div class="contact-row">
+      <div class="card contact-card">
+        <h4>Visit Us</h4>
+        <p>Best Cars Head Office<br>2150 Commerce Street<br>Dallas, TX 75201</p>
+      </div>
+      <div class="card contact-card">
+        <h4>Call Us</h4>
+        <p>Sales: (214) 555-0142<br>Service: (214) 555-0178</p>
+      </div>
+      <div class="card contact-card">
+        <h4>Email Us</h4>
+        <p>sales@bestcars.com<br>support@bestcars.com</p>
+      </div>
+    </div>
+
+    <div class="hours">
+      <h4>Opening Hours</h4>
+      <p>Monday to Friday: 9:00 AM to 7:00 PM<br>Saturday: 10:00 AM to 5:00 PM<br>Sunday: Closed</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
