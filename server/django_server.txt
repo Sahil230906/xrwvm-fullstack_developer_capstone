@@ -1,0 +1,83 @@
+Watching for file changes with StatReloader
+[29/Oct/2026 16:41:55] "GET / HTTP/1.1" 200 2679
+[29/Oct/2026 16:41:56] "GET /static/style.css HTTP/1.1" 200 1918
+[29/Oct/2026 16:41:56] "GET /static/bootstrap.min.css HTTP/1.1" 200 155800
+[29/Oct/2026 16:41:56] "GET /static/car_dealership.jpg HTTP/1.1" 200 263696
+Not Found: /dealers
+[29/Oct/2026 16:43:26] "GET /dealers HTTP/1.1" 404 2666
+[29/Oct/2026 16:43:34] "GET / HTTP/1.1" 200 2679
+[29/Oct/2026 16:43:35] "GET /static/style.css HTTP/1.1" 304 0
+[29/Oct/2026 16:43:35] "GET /static/bootstrap.min.css HTTP/1.1" 304 0
+[29/Oct/2026 16:43:35] "GET /static/car_dealership.jpg HTTP/1.1" 304 0
+/home/project/xrwvm-fullstack_developer_capstone/server/djangoproj/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2026 - 16:40:55
+Django version 5.2.18, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/home/project/xrwvm-fullstack_developer_capstone/server/djangoproj/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2026 - 16:45:30
+Django version 5.2.18, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/home/project/xrwvm-fullstack_developer_capstone/server/djangoproj/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2026 - 16:45:43
+Django version 5.2.18, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+/home/project/xrwvm-fullstack_developer_capstone/server/djangoproj/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 29, 2026 - 16:50:49
+Django version 5.2.18, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+[29/Oct/2026 17:05:22] "GET /contact/ HTTP/1.1" 200 2800
+[29/Oct/2026 17:05:22] "GET /static/style.css HTTP/1.1" 304 0
+[29/Oct/2026 17:05:22] "GET /static/bootstrap.min.css HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[29/Oct/2026 17:05:23] "GET /favicon.ico HTTP/1.1" 404 2978
+[29/Oct/2026 17:05:35] "GET /contact/ HTTP/1.1" 200 2800
+Not Found: /dealers
+[29/Oct/2026 17:07:58] "GET /dealers HTTP/1.1" 404 2966
+[29/Oct/2026 17:08:14] "GET / HTTP/1.1" 200 2679
+[29/Oct/2026 17:08:14] "GET /static/style.css HTTP/1.1" 304 0
+[29/Oct/2026 17:08:14] "GET /static/bootstrap.min.css HTTP/1.1" 304 0
+[29/Oct/2026 17:08:14] "GET /static/car_dealership.jpg HTTP/1.1" 304 0
+[29/Oct/2026 17:08:19] "GET /contact HTTP/1.1" 301 0
+[29/Oct/2026 17:08:19] "GET /contact/ HTTP/1.1" 200 2800
+[29/Oct/2026 17:08:29] "GET /about HTTP/1.1" 301 0
+[29/Oct/2026 17:08:29] "GET /about/ HTTP/1.1" 200 3930
+[29/Oct/2026 17:08:46] "GET / HTTP/1.1" 200 2679
+Not Found: /dealers
+[29/Oct/2026 17:09:03] "GET /dealers HTTP/1.1" 404 2966
+[29/Oct/2026 17:09:12] "GET / HTTP/1.1" 200 2679
+[29/Oct/2026 17:11:59] "GET / HTTP/1.1" 200 2679
+[29/Oct/2026 17:11:59] "GET /static/car_dealership.jpg HTTP/1.1" 304 0
+[29/Oct/2026 17:11:59] "GET /static/style.css HTTP/1.1" 304 0
+[29/Oct/2026 17:11:59] "GET /static/bootstrap.min.css HTTP/1.1" 304 0
